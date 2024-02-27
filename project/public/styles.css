@@ -1,0 +1,99 @@
+@import "https://fonts.googleapis.com/css?family=Raleway";
+* { box-sizing: border-box; }
+
+
+h1{ margin: 0; }
+#register { 
+  margin: 4em auto;
+  width: 300px; 
+  height: 30px; 
+  line-height: 30px;
+  background: teal;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+#formRegister { 
+    display:block;
+    border: 6px solid salmon; 
+    padding: 2em;
+    width: 400px;
+    text-align: center;
+    background: #fff;
+    position:relative;
+    top:50%;
+    left:20%;
+
+  }
+#registerPatient { 
+  display:flexbox;
+
+  border: 2px solid rgb(112, 70, 224); 
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+  background: #fff;
+  position:absolute;
+
+}
+
+input, select { 
+  margin: .8em auto;
+  font-family: inherit; 
+  text-transform: inherit; 
+  font-size: inherit;
+  
+  display: block; 
+  width: 280px; 
+  padding: .4em;
+}
+
+.subBtn { 
+  width: 140px;
+  display: inline-block;
+  
+  background: teal;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 30px;
+}
+.resBtn { 
+    width: 140px;
+    display: inline-block;
+    
+    background: rgb(118, 116, 124);
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.2em;
+    border: none;
+    height: 30px;
+  }
+  
+  
+.container{
+
+    width: 80%;
+    margin: 0 auto;
+    left:30%;
+    display:flexbox;
+
+    border: 2px solid rgb(84, 116, 185); 
+    padding: 10px;
+    width: 700px;
+    height: 430px;
+    text-align: center;
+    background: #fff;
+    position:absolute;
+  }
+  
+  h1 {
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
+  }
+ 
